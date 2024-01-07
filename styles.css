@@ -21,8 +21,6 @@ header{
     font-size: large;
 }
 
-
-
 .nav_bar ul {
     display: flex;
     flex-direction: row;
@@ -41,6 +39,27 @@ header{
 
 .title_background{
     width: 100%;
+}
+
+.intro_text {
+    padding-top:12px;
+    padding-left:30px;
+    width:420px;
+    height:320px;
+    position: absolute;
+    bottom:-70px;
+    right:500px;
+    background-color:#ffffff;
+    opacity: 0.6;
+    color:black;
+}
+
+.img_text_title {
+    font-size: 28px;
+    font-family:'DM Sans', sans-serif;
+    font-weight:700;
+    padding-bottom: 9px;
+    color:black;
 }
 
 footer{
