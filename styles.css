@@ -10,19 +10,24 @@ header{
 }
 
 .uni_name {
-    padding: 0px 10px;
+    padding-top: 5px;
+    padding-left: 50px;
     display: block;
     background: rgb(28, 82, 219);
-    height: 30px;
-    font-size: x-large;
-    font-family: serif;
+    font-size: 20px;
+    font-family: 'Cambo', serif;
     color: white; /* Set the text color to white */
-    font-weight: bold; /* Make the text bold */
+    /* font-weight: bold; */
     text-decoration: none; /* Remove underline */
 }
 
+h1{
+    padding-left: 15px;
+    margin: 15px;
+}
+
 .conf_name{
-    padding: 0px 20px;
+    padding: 20px;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(15, 53, 141); /* Set the text color to white */
