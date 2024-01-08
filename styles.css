@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
     color: white;
@@ -10,7 +12,8 @@ header{
 }
 
 .uni_name {
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 50px;
     display: block;
     background: rgb(28, 82, 219);
@@ -21,22 +24,28 @@ header{
     text-decoration: none; /* Remove underline */
 }
 
-h1{
-    padding-left: 25px;
-    margin: 5px;
-}
+
 
 .conf_name{
-    padding: 15px;
+    padding-left: 50px;
+    margin: 5px;
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(20, 47, 112); /* Set the text color to white */
     text-decoration: none; /* Remove underline */
 }
 
+.nav_bar{
+    padding: 0px;
+    margin: 0px;
+    background:rgb(182, 186, 197);
+}
+
 a{
     text-decoration: none; 
 }
+
+
 
 .nav_bar ul {
     display: flex;
@@ -45,31 +54,31 @@ a{
     padding: 5px;
     margin: 0;
     text-decoration: none; /* Remove underline */
+    color: white;
 }
 
 .nav_bar li {
-    margin: 0;
     padding: 0;
     display: inline-block;
     margin: auto;
     text-align: center;
     text-decoration: none; /* Remove underline */
+    color: white;
+    font-size: 18px;
+}
+
+li a:visited{
+    color: rgb(66, 68, 75);
+}
+
+li a:hover{
+    color: rgb(28, 82, 219);
 }
 
 .title_background{
     width: 100%;
-    text-decoration: none; /* Remove underline */
-}
-
-.image_overlay {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    opacity: 0.6;
-    z-index: 4;
+    padding: 0px;
+    margin: 0px;
 }
 
 .intro_text {
@@ -87,6 +96,7 @@ a{
     z-index: 2; 
 }
 .img_text_title {
+
     font-size: 30px;
     font-family:'DM Sans', sans-serif;
     font-weight:700;
@@ -95,6 +105,128 @@ a{
     margin: 20px 0px 20px 0px;
 }
 
+.main_content_home{
+    display: flex;
+    font-family:system-ui;
+    margin: -100px 250px 100px 250px;
+}
+
+.main_content{
+    display: flex;
+    font-family:system-ui;
+    margin: 100px 250px 100px 250px;
+}
+
+.main_left {
+    padding: 0px;
+    width: 65%;
+    margin: 0px 100px 0px 0px;
+}
+
+.main_right{
+    width: 35%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_left img{
+    max-width: 100%;
+}
+
+.conf_full_name, .conf_full_title, .conf_full_date, .conf_host, .conf_venue{
+    margin: 20px 0px;
+    padding: 0px;
+    color: black;
+    text-align: left;
+}
+
+.conf_full_name{
+    font-size: 40px;
+}
+
+.conf_full_title{
+    font-size: 25px;
+}
+
+.conf_full_date{
+    font-size: 25px;
+}
+
+.conf_host{
+    font-size: 25px;
+}
+
+.conf_venue{
+    font-size: 25px;
+    
+}
+
+.join_us {
+    margin-top: 50px;
+    padding: 0px 0px 10px 0px;
+    font-size: 25px;
+    color: black;
+}
+
+
+.conf_desc {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 0px;
+    color: black;
+}
+
+.important_dates{
+    color: black;
+    background:rgb(182, 186, 197);
+    padding: 15px 30px;
+    margin: 0px 0px 30px 0px;
+}
+
+.important_date_title{
+    font-size: 25px;
+}
+
+.important_date_list{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.questions{
+    color: white;
+    background: rgb(64, 70, 85);
+    padding: 30px;
+    margin: 0px 0px;
+}
+
+.questions_title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.questions_content{
+    font-size: 16px;
+    color: white;
+    
+}
+
+.sponsors{
+    display: flex;
+    margin: 50px 100px 50px 200px;
+    color: black;
+    font-size: 32px;
+}
+
+.sponsor_logos{
+    display: flex;
+    margin: 0px 100px 100px 200px;
+}
+
+.logo{
+    margin: auto;
+}
 
 footer{
     margin: 0;
