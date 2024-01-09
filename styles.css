@@ -38,14 +38,12 @@ header{
 .nav_bar{
     padding: 0px;
     margin: 0px;
-    background:rgb(182, 186, 197);
+    background:rgb(114, 145, 229);
 }
 
 a{
     text-decoration: none; 
 }
-
-
 
 .nav_bar ul {
     display: flex;
